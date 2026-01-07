@@ -30,6 +30,7 @@ A high-performance C++ and Python bridge for stock market analysis. This engine 
     ./engine
 
 📊 Logic & Methodology
+
 The engine uses a sliding window approach. By storing the last 20 closing prices in a deque, it calculates the short-term and long-term trends.
 
 Golden Cross (BUY): When the 5-day SMA rises above the 20-day SMA, indicating upward momentum.
